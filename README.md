@@ -22,3 +22,7 @@ node version 22.12.0
 
 https://alan-luna-carreon.github.io/roadmap.sh-single-page-cv/
 
+## Project URL:
+
+https://roadmap.sh/projects/single-page-cv
+
