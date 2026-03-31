@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production --base-href /roadmap.sh-single-page-cv/",
+    "deploy": "npx ngh --dir=dist/single-page-cv/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
