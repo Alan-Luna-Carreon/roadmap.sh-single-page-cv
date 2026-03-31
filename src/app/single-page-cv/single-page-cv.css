@@ -1,0 +1,143 @@
+/* ─────────────────────────────────────────────
+   CV CARD — Letter size: 8.5in × 11in
+   ───────────────────────────────────────────── */
+:host {
+  display: block;
+  width: 8.5in;
+  min-height: 11in;
+  background: #ffffff;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+  padding: 0.75in 0.75in;
+  font-family: 'Inter', sans-serif;
+  color: #1a1a2e;
+}
+
+/* ── Header ── */
+header {
+  margin-bottom: 2rem;
+}
+
+header hr {
+  border: none;
+  border-top: 2.5px solid #1a1a2e;
+  margin-bottom: 1.25rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: #1a1a2e;
+  line-height: 1.2;
+  margin-bottom: 0.2rem;
+}
+
+header h2 {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #5a5a7a;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.85rem;
+}
+
+header p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4a4a6a;
+  line-height: 1.75;
+}
+
+/* ── Sections ── */
+section {
+  margin-bottom: 1.75rem;
+}
+
+section h2 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5a5a7a;
+  border-bottom: 1px solid #e0e0ec;
+  padding-bottom: 0.35rem;
+  margin-bottom: 0.75rem;
+}
+
+section h3 {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: #1a1a2e;
+  margin-bottom: 0.25rem;
+}
+
+section p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4a4a6a;
+  line-height: 1.7;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1rem;
+}
+
+section li {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4a4a6a;
+  position: relative;
+  padding-left: 0.9rem;
+}
+
+section li::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: #9090b0;
+}
+
+/* ── Footer ── */
+footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e0e0ec;
+}
+
+footer h2 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5a5a7a;
+  margin-bottom: 0.75rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+footer li {
+  font-size: 0.875rem;
+}
+
+footer a {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #3b3bcc;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+footer a:hover {
+  border-color: #3b3bcc;
+}

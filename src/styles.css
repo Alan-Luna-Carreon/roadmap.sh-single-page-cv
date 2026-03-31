@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+/* Box-sizing reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page background — gives the paper-on-desk feel */
+body {
+  background-color: #e8e8e8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Host the CV page inside app-root > main */
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
